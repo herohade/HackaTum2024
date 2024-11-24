@@ -29,7 +29,7 @@ static const int RSP = 6; // stack pointer is in register 6
 static const std::string PRIV_PREFIX = "privileged-";
 static const std::string LOAD_CYCLES = "30";
 static const std::string STORE_CYCLES = "20";
-static const uint16_t NUMBER_REGISTERS = 12;
+static const uint16_t NUMBER_REGISTERS = 8;
 
 class transpiler {
 
