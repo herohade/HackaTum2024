@@ -10,8 +10,8 @@ int main(int argc, char** argv) {
     parser parse;
     transpiler tran;
 
-    const char* IN_FILE = "../test.txt";
-    const char* OUT_FILE = argv[1] ? argv[1] : "../output.in";
+    const char* IN_FILE = argv[1] ? argv[1] : "../test.txt";
+    const char* OUT_FILE = "output.in";
 
     auto token_queue = lex.lexer_fct(IN_FILE);
     std::cout << lex.to_string(token_queue) << std::endl;
