@@ -1,10 +1,6 @@
 // (b,100)
 
 main() {
-    a = 5;
-    if(a == 5)
-        b = 2;
-    else
-        b = 100;
-    return a;
+    b = a + 1;
+    return;
 }
